@@ -1,0 +1,152 @@
+export const categories = [
+  { id: 'starters', label: 'Закуски' },
+  { id: 'mains', label: 'Основные блюда' },
+  { id: 'desserts', label: 'Десерты' },
+  { id: 'drinks', label: 'Напитки' },
+]
+
+export const menuItems = [
+  // Закуски
+  {
+    id: 1,
+    category: 'starters',
+    name: 'Тар-тар из лосося',
+    description: 'Свежий лосось, каперсы, авокадо, лимонный айоли и хрустящие крутоны',
+    price: 950,
+    image: 'https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600&q=80&fit=crop',
+  },
+  {
+    id: 2,
+    category: 'starters',
+    name: 'Брускетта с томатами',
+    description: 'Поджаренный хлеб чиабатта, томаты черри, базилик, бальзамический крем',
+    price: 650,
+    image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=600&q=80&fit=crop',
+  },
+  {
+    id: 3,
+    category: 'starters',
+    name: 'Карпаччо из говядины',
+    description: 'Тонко нарезанная мраморная говядина, рукола, пармезан, трюфельное масло',
+    price: 1200,
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80&fit=crop',
+  },
+  {
+    id: 4,
+    category: 'starters',
+    name: 'Крем-суп из тыквы',
+    description: 'Бархатистый суп с мускатной тыквой, кокосовым молоком и семенами тыквы',
+    price: 720,
+    image: 'https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80&fit=crop',
+  },
+
+  // Основные блюда
+  {
+    id: 5,
+    category: 'mains',
+    name: 'Стейк Рибай',
+    description: 'Мраморная говядина 300г, соус демиглас, запечённый картофель, сезонные овощи',
+    price: 3200,
+    image: 'https://images.unsplash.com/photo-1558030006-450675393462?w=600&q=80&fit=crop',
+  },
+  {
+    id: 6,
+    category: 'mains',
+    name: 'Филе лосося',
+    description: 'Запечённый лосось, соус холландез, спаржа, лимонное масло',
+    price: 2400,
+    image: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80&fit=crop',
+  },
+  {
+    id: 7,
+    category: 'mains',
+    name: 'Утиная грудка',
+    description: 'Утиная грудка sous-vide, соус из вишни, пюре из сельдерея, жареный инжир',
+    price: 2800,
+    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80&fit=crop',
+  },
+  {
+    id: 8,
+    category: 'mains',
+    name: 'Паста Трюфель',
+    description: 'Свежая паста тальятелле, трюфельное масло, пармезан, белые грибы',
+    price: 1900,
+    image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80&fit=crop',
+  },
+  {
+    id: 9,
+    category: 'mains',
+    name: 'Ягнёнок в розмарине',
+    description: 'Каре ягнёнка, соус из красного вина, ризотто с пармезаном, мятная гремолата',
+    price: 3500,
+    image: 'https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=600&q=80&fit=crop',
+  },
+
+  // Десерты
+  {
+    id: 10,
+    category: 'desserts',
+    name: 'Тирамису',
+    description: 'Классический итальянский десерт с маскарпоне, савоярди и эспрессо',
+    price: 680,
+    image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80&fit=crop',
+  },
+  {
+    id: 11,
+    category: 'desserts',
+    name: 'Шоколадный фондан',
+    description: 'Тёплый шоколадный корж с жидкой начинкой, ванильное мороженое, малина',
+    price: 750,
+    image: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&q=80&fit=crop',
+  },
+  {
+    id: 12,
+    category: 'desserts',
+    name: 'Крем-брюле',
+    description: 'Нежный ванильный крем под хрустящей карамельной корочкой',
+    price: 620,
+    image: 'https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?w=600&q=80&fit=crop',
+  },
+  {
+    id: 13,
+    category: 'desserts',
+    name: 'Тарт с ягодами',
+    description: 'Хрустящее тесто, заварной крем патисьер, свежие сезонные ягоды',
+    price: 700,
+    image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&q=80&fit=crop',
+  },
+
+  // Напитки
+  {
+    id: 14,
+    category: 'drinks',
+    name: 'Авторский лимонад',
+    description: 'Свежевыжатый лимон, мята, имбирь, газированная вода, мёд',
+    price: 450,
+    image: 'https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=600&q=80&fit=crop',
+  },
+  {
+    id: 15,
+    category: 'drinks',
+    name: 'Холодный брю',
+    description: 'Медленное заваривание арабики 24 часа, подаётся со льдом и молоком',
+    price: 520,
+    image: 'https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80&fit=crop',
+  },
+  {
+    id: 16,
+    category: 'drinks',
+    name: 'Матча Латте',
+    description: 'Церемониальная матча, вспененное миндальное молоко, мёд',
+    price: 490,
+    image: 'https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=600&q=80&fit=crop',
+  },
+  {
+    id: 17,
+    category: 'drinks',
+    name: 'Смузи «Тропик»',
+    description: 'Манго, маракуйя, банан, кокосовое молоко, семена чиа',
+    price: 550,
+    image: 'https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=600&q=80&fit=crop',
+  },
+]
