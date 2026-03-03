@@ -77,6 +77,7 @@
 
 ## 📂 Структура проекта
 
+```
 aiza-restaurant/  
 ├── public/  
 │   └── favicon.svg  
